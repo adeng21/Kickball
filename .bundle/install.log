@@ -1,0 +1,11 @@
+# Logfile created on 2014-02-27 10:26:07 -0500 by logger.rb/41954
+I, [2014-02-27T10:26:07.035963 #90090]  INFO -- : 0:  coderay (1.1.0) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/coderay-1.1.0.gemspec
+I, [2014-02-27T10:26:07.047640 #90090]  INFO -- : 0:  method_source (0.8.2) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/method_source-0.8.2.gemspec
+I, [2014-02-27T10:26:07.047912 #90090]  INFO -- : 0:  slop (3.4.7) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/slop-3.4.7.gemspec
+I, [2014-02-27T10:26:07.048180 #90090]  INFO -- : 0:  pry (0.9.12.6) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/pry-0.9.12.6.gemspec
+I, [2014-02-27T10:26:07.048417 #90090]  INFO -- : 0:  rack (1.5.2) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-02-27T10:26:07.048655 #90090]  INFO -- : 0:  rack-protection (1.5.2) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-27T10:26:07.048888 #90090]  INFO -- : 0:  shotgun (0.9) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/shotgun-0.9.gemspec
+I, [2014-02-27T10:26:07.049125 #90090]  INFO -- : 0:  tilt (1.4.1) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-02-27T10:26:07.049365 #90090]  INFO -- : 0:  sinatra (1.4.4) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-27T10:26:07.049588 #90090]  INFO -- : 0:  bundler (1.5.1) from /Users/Albeezy/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec

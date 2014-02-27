@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kickball!</title>
+    <link rel="stylesheet" href="/kickball.css" />
+  </head>
+
+  <body>
+    <h1><%=@headline%></h1>
+      <table>
+        <thead>
+          <tr>
+            <th><%=@headline2%></th>
+            <th><%=@headline3%></th>
+            <th><%=@headline4%></th>
+        </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+
+            <td>
+              <%@first_name_array.each do |name|%>
+              <li><%= name %></li>
+              <%end%>
+            </td>
+
+
+            <td>
+              <%@last_name_array.each do |name|%>
+              <li><%= name%></li>
+              <%end%>
+            </td>
+
+            <td>
+              <%@position_array.each do |name|%>
+              <li><%= name%></li>
+              <%end%>
+            </td>
+
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+  </body>
+</html>

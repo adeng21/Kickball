@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kickball!</title>
+    <link rel="stylesheet" href="kickball.css" />
+  </head>
+
+  <body>
+    <h1><%=@headline%></h1>
+
+    <ul>
+
+        <h3><%=@headline2%></h3>
+
+        <%@team_list.each do |task|%>
+        <li> <a href="/<%=task%>"> <%= task%></a></li>
+
+        <%end%>
+
+    </ul>
+  </body>
+</html>
