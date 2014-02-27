@@ -34,10 +34,12 @@
 
             <td>
               <%@team_array.each do |name|%>
-              <li><%= name%></li>
+              <li><a href="/team/<%=name%>"> <%= name%></li>
               <%end%>
             </td>
 
           </tr>
         </tbody>
       </table>
+
+      <h3><a href="/mainpage"> Return to Home Page</h3>

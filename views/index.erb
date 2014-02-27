@@ -12,8 +12,19 @@
 
         <h3><%=@headline2%></h3>
 
-        <%@team_list.each do |task|%>
-        <li> <a href="/<%=task%>"> <%= task%></a></li>
+        <%@team_list.each do |team|%>
+        <li> <a href="/team/<%=team%>"> <%= team%></a></li>
+
+        <%end%>
+
+    </ul>
+
+    <ul>
+
+        <h3><%=@headline3%></h3>
+
+        <%@position_list.each do |position|%>
+        <li> <a href="/position/<%=position%>"> <%= position%></a></li>
 
         <%end%>
 

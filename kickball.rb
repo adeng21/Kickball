@@ -40,14 +40,18 @@ end
 def team_list
 
   team_array = []
-
     @players.each do |player, pos_team|
-
       team_array << pos_team['team']
-
     end
-
   @team_list= team_array.uniq
+end
+
+def position_list
+  position_array = []
+    @players.each do |player, pos_team|
+      position_array << pos_team['position']
+    end
+    @position_list = position_array.uniq
 
 end
 
@@ -73,15 +77,17 @@ end
 get '/mainpage' do
 
   @headline = "League of Cool Kickball Professionals"
-  @headline2 = "Teams in the League"
+  @headline2 = "Teams"
+  @headline3 = "Positions"
 
   team_list
+  position_list
 
   erb :index
 end
 
 #team pages
-get '/teams/:team_name' do
+get '/team/:team_name' do
 
   team_name = params[:team_name]
 
@@ -99,14 +105,14 @@ get '/teams/:team_name' do
 end
 
 #position pages
-get '/positions/:position' do
+get '/position/:position' do
 
   position = params[:position]
 
   @headline = position
   @headline2 = "First Name"
   @headline3 = "Last Name"
-  @headline4 = "Team"
+  @headline4 = "Teams"
 
   position_page(position)
 
